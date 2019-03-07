@@ -1,3 +1,4 @@
+import org.apache.catalina.startup.Bootstrap;
 import org.apache.tomcat.util.net.AbstractEndpoint;
 
 /**
@@ -5,6 +6,9 @@ import org.apache.tomcat.util.net.AbstractEndpoint;
  *
  *
  * {@link AbstractEndpoint#bind()}
+ *
+ *
+ * {@link Bootstrap#main(java.lang.String[])}
  *
  *
  * @author zhengshijun
